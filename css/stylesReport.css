@@ -1,0 +1,256 @@
+body {
+  background: linear-gradient(-25deg, #170A74, #170A74, #CC20AA, #170A74, #170A74, #CC20AA, #170A74, #170A74, #CC20AA,#170A74, #170A74);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 300%;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-weight: bold;
+  margin: 0;
+}
+
+h3 {
+  color: white;
+  font-weight: bold;
+}
+
+p {
+  color: #978FC0;
+
+}
+
+.hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  color: white;
+  width: 7%;
+  margin: 4rem auto 0;
+}
+
+.all-container {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+.final-hr {
+  margin-bottom: 4rem;
+}
+
+.logo {
+  width: 25%;
+
+}
+
+
+.titulo {
+  padding: 2.5rem 0;
+  font-weight: bold;
+}
+
+.subtitulo{
+  font-size: 120%;
+  font-weight: bold;
+  padding: 2.5% 0;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.note {
+  padding: 0 28% 2.5rem;
+  margin: 0;
+
+}
+
+.scroll-down {
+  width: 4%;
+}
+
+
+.boxed {
+  display: inline-block;
+  padding: 0 1% 0;
+  margin: 5% 0 1%;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.graybackground {
+  font-size: 150%;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+/* Images */
+
+.images-container {
+
+}
+
+.images-div {
+  position: relative;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.images {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.images-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.images-overlay-blur {
+  backdrop-filter: blur(5px)
+}
+
+.images-overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.3s;
+}
+
+.images-overlay:hover {
+  opacity: 1;
+}
+
+.images-overlay:hover > * {
+  transform: translateY(0px);
+}
+
+.image-title-1 {
+  font-size: 1.3em;
+}
+
+.images-description {
+  font-size: 1.2em;
+  color: white;
+  padding: 2.5% 18% 0;
+}
+
+/* Footer */
+
+.rights-reserved {
+  padding: 20px;
+  margin: 0;
+  font-size: 75%;
+  font-weight: bold;
+  color: white;
+}
+
+/* Buttons */
+
+.btn2 {
+  background: #6e34d9;
+  background-image: -webkit-linear-gradient(top, #6e34d9, #b82bb3);
+  background-image: -moz-linear-gradient(top, #6e34d9, #b82bb3);
+  background-image: -ms-linear-gradient(top, #6e34d9, #b82bb3);
+  background-image: -o-linear-gradient(top, #6e34d9, #b82bb3);
+  background-image: linear-gradient(to bottom, #6e34d9, #b82bb3);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f628d 0px;
+  text-decoration: none;
+}
+
+.btn2:hover {
+  background: #b82bb3;
+  background-image: -webkit-linear-gradient(top, #b82bb3, #6e34d9);
+  background-image: -moz-linear-gradient(top, #b82bb3, #6e34d9);
+  background-image: -ms-linear-gradient(top, #b82bb3, #6e34d9);
+  background-image: -o-linear-gradient(top, #b82bb3, #6e34d9);
+  background-image: linear-gradient(to bottom, #b82bb3, #6e34d9);
+  text-decoration: none;
+}
+
+.bottom-text {
+  font-weight: lighter;
+  margin-top: 4%;
+}
+
+.pleasevisit {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.rights-reserved {
+  text-align: center;
+  color: #978FC0;
+  padding: 0 0 3%;
+}
+
+.link-magma {
+  color: #b82bb3;
+}
+
+.link-magma:hover {
+  color: #6e34d9;
+}
+
+
+
+
+
+.logoHeader {
+  width: 10%;
+  border-radius: 100%;
+  margin-right: 3%;
+}
+
+.nav-link2 {
+  display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: white;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.nav-item {
+    --bs-nav-pills-link-active-bg: #CC20AA;
+}
+
+.pb-2 {
+  color: white;
+
+}
